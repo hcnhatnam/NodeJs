@@ -4,12 +4,15 @@
   "description": "first Nodejs App",
   "main": "server.js",
   "scripts": {
+    "watch": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "namhcn",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@types/mongodb": "^3.3.13",
+    "express": "^4.17.1",
+    "mongodb": "^3.4.1"
   }
 }
